@@ -1,4 +1,3 @@
-/* const { writeCompetition, getCompetition } = require('../utils/compWrite'); */
 const { v4: uuid } = require('uuid')
 
 const yogaCamp = {
