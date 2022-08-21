@@ -45,7 +45,7 @@ const createCompAndInsertPlayer = (req, res) => {
     return res.status(201).json(result)
 }
 
-const finishCamp = (req, res) => {
+const finishCamp = async (req, res) => {
     const { competicao } = req.body;
 
     if (competicao === 'competição yoga') yogaCamp.status = 'finished';
