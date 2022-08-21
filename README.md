@@ -3,6 +3,7 @@ RadarFit Olimpiadas - Com a chegada das olimpíadas RadarFit, fomos designados p
 Para rodar o projeto deve-se instalar as dependencias e iniciar o servidor com os comandos:
 # 
 npm i
+# 
 npm run dev
 # 
 Dependencias Utilizadas:
